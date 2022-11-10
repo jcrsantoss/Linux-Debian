@@ -110,7 +110,7 @@ chattr –i --------------------Comando para remover um atributo de algum arquiv
 
 Cmp ------------------ Compara dois arquivos de qualquer tipo (binário ou texto). 
  
-chattr
+cha
 
 
  
