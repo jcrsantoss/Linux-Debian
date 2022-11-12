@@ -109,8 +109,7 @@ chattr –i --------------------Comando para remover um atributo de algum arquiv
  
 
 Cmp ------------------ Compara dois arquivos de qualquer tipo (binário ou texto). 
+
  
-cha
-
-
+Wich(nome do binario) -------------------comando usado para mostrar aonde o binário se encontra  
  

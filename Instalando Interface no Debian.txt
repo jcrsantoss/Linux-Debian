@@ -1,0 +1,20 @@
+Instalação e Configuração da Interface Gráfica: 
+
+Bem, nosso primeiro passo será atualizar a lista de repositórios: 
+# apt-get update 
+
+ 
+ 
+O primeiro componente que iremos instalar é o  X Window System: 
+# apt-get install x-window-system 
+
+ 
+
+Agora que temos o X Window System instalado, podemos instalar Gerenciadores de Janelas e Ambientes de Desktop. Há vários disponíveis, como o gnome, icewm, xfce4, kde, fluxbox, etc.; nesta demonstração, iremos instalar o GNOME: 
+# apt-get install gnome 
+
+ 
+
+Após a instalação finalizar, vamos testar a interface gráfica iniciando-a a partir do console com o comando startx:: 
+
+# startx 
