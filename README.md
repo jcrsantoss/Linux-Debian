@@ -1,169 +1,152 @@
-# Linux-Debian
-Minhas anotações Linux
-PWD  -------------------------Diretório que estou  
-LS -----------------------------Lista Arquivos e Diretórios  
-LS –a------------------------- Todos os arquivos  
-LS –al   ----------------------Mais informações sobre todos os arquivos 
-Ld-L  -------------------------comando para listar pastas  
-LS-alh ou lha --------------Informações dos Arquivos em GB. KB. TB 
-LS –L (nome da pasta)---Trás o conteúdo das pastas  
-Control L -------------------Atalho para limpar a tela .. 
-history ----------------------Mostrar histórico de comandos  
-Cat ---------------------------Visualizar os conteúdo do arquivo  
-cd ../../../ ------------------Volta níveis no diretório jul 
-cd -     -----------------------volta para pasta anterior 
-Touch -----------------------comando para criar arquivo chat 
-Touch . -----------------------Comando para criar arquivo oculto o ponto faz isso (.) 
-mkdir------------------------comando para criar pastas 
-rmdir-------------------------comando para remover diretórios vazios 
-cat ----------------------------comando para visualizar o conteúdo de um arquivo 
-rm ----------------------------comando para remover algum arquivo  
-rm –r   ----------------------comando para remover diretórios  
-rm-rf *  ---------------------comando para remover todos os diretórios 
-cp (nome do arquivo) (nome do outro arquivo -------------- comando para copiar arquivo 
-nano -------------------------comando para abrir um editor de texto  
+<h1>Comandos Linux</h1>
+> Status do Projeto: Anotações pendente
+<DL>
+  <DT>PWD</DT>
+  <DD>DIRETORIO QUE ESTOU</DD>
+  <DT>LS</DT>
+  <DD>LISTA ARQUIVOS E DIRETÓRIOS</DD>
+  <DT>LS –AL</DT>
+  <DD>MAIS INFORMAÇÕES SOBRE TODOS OS ARQUIVOS </DD>
+ <DT>LD -L</DT>
+  <DD>COMANDO PARA LISTAR PASTAS</DD>
+  <DT>LS -LHA</DT>
+  <DD>INFORMAÇÕES DOS ARQUIVOS EM GB. KB. TB </DD>
+  <DT>LS –L (NOME DA PASTA)</DT>
+  <DD>MOSTRA O CONTEÚDO DAS PASTAS</DD>
+   <DT>CONTROL L</DT>
+  <DD>ATALHO PARA LIMPAR A TELA </DD>
+  <DT>HISTORY</DT>
+  <DD>MOSTRAR HISTÓRICO DE COMANDOS </DD>
+  <DT>CAT</DT>
+  <DD>VISUALIZAR OS CONTEÚDO DO ARQUIVO  </DD>
+   <DT>CD ../../../</DT>
+  <DD>VOLTA NÍVEIS NO DIRETÓRIO </DD>
+  <DT>CD - </DT>
+  <DD>VOLTA PARA PASTA ANTERIOR </DD>
+  <DT>TOUCH</DT>
+  <DD>COMANDO PARA CRIAR ARQUIVO CHAT </DD>
+   <DT>TOUCH .</DT>
+  <DD>COMANDO PARA CRIAR ARQUIVO OCULTO O PONTO FAZ ISSO (.) </DD>
+  <DT>MKDIR</DT>
+  <DD>COMANDO PARA CRIAR PASTAS </DD>
+  <DT>RMDIR</DT>
+  <DD>COMANDO PARA REMOVER DIRETÓRIOS VAZIOS </DD>
+  <DT>CAT</DT>
+  <DD>COMANDO PARA VISUALIZAR O CONTEÚDO DE UM ARQUIVO </DD>
+  <DT>RM</DT>
+  <DD>COMANDO PARA REMOVER ALGUM ARQUIVO</DD>
+  <DT>RM –R</DT>
+  <DD>COMANDO PARA REMOVER DIRETÓRIOS  </DD>
+  <DT>RM-RF *</DT>
+  <DD>COMANDO PARA REMOVER TODOS OS DIRETÓRIOS </DD>
+  <DT>CP (NOME DO ARQUIVO) (NOME DO OUTRO ARQUIVO)</DT>
+  <DD>COMANDO PARA COPIAR ARQUIVO </DD>
+  <DT>NANO</DT>
+  <DD>COMANDO PARA ABRIR UM EDITOR DE TEXTO  </DD>
+  <DT>LS "LETRA QUE DESEJA BUSCAR" *</DT>
+  <DD>DF -H</DD>
+  <DT>COMANDO MOSTRA O ESPAÇO LIVRE EM CADA PARTIÇÃO  </DT>
+  <DD>DF –TH –T  (NOME DO FORMATO)</DD>
+  <DT>COMANDO PARA BUSCAR UM MODELO DE ARQUIVO ESPECIFICO  </DT>
+  <DD>DATE</DD>
+  <DT>COMANDO PARA MOSTRAR A DATA DO SISTEMA </DT>
+  <DD>IN</DD>
+  <DT>COMANDO PARA CRIAR UM LINK</DT>
+  <DD>FIND \ETC -MTIME -1</DD>
+  <DT>COMANDO PARA PESQUISAR ARQUIVOS ALTERADOS 1 DIA ATRÁS </DT>
+  <DD>FIND -NAME</DD>
+  <DT>COMANDO PARA PESQUISAR ALGO PELO NOME</DT>
+  <DD>FIND . -TYPE D .NAME</DD>
+  <DT>COMANDO PARA PESQUISAR APENAS PASTAS</DT>
+  <DD>FIND . -TYPE F .NAME</DD>
+  <DT>COMANDO PARA PESQUISAR APENAS ARQUIVOS</DT>
+  <DD>FIND  \ETC -AMIN -10</DD>
+  <DD>COMANDO PARA LISTAR TODOS ARQUIVOS EDITADOS NOS ULTIMOS 10 MINUTOS</DD>
+  <DT>FIND  \TMP -CMIN –10</DT>
+  <DD>COMANDO PARA LISTAR TODOS ARQUIVOS E PASTAS CRIADOS NOS ULTIMOS 10 MINUTOS</DD>
+  <DT>FIND  \TMP -TYPE F -CMIN –10</DT>
+  <DD>COMANDO PARA LISTAR SOMENTE ARQUIVOS CRIADO NOS ULTIMOS 10 MINUTOS</DD>
+<DD>LESS</DD>
+  <DT>COMANDO PARA PESQUISAR E ABRIR UM ARQUIVO</DT>
+  <DD>SORT</DD>
+  <DT>COMANDO PARA LISTAR UM ARQUIVO DE FORMA DE NÚMEROS PARA PALAVRAS DE A –Z </DT>
+  <DD>SORT –N</DD>
+<DD>COMANDO PARA LISTAR ARQUIVOS DE A – Z E DEPOIS OS NÚMEROS DE ORDEM CRESCENTE</DD>
+  <DT>UPTIME</DT>
+  <DD>COMANDO USADO PARA MOSTRAR O TEMPO ATIVO DA MÁQUINA DESDE ULTIMO BOOT</DD>
+  <DT>DMESG</DT>
+  <DD>COMANDO PARA ACESSAR AS ÚLTIMAS MSG DO KENEL  </DD>
+<DD>ECHO</DD>
+  <DT>COMANDO PARA EXIBIR MENSAGEM NA TELA </DT>
+  <DD>SU -</DD>
+  <DT>COMANDO PARA ACESSAR COM O SUPER USUARIO</DT>
+  <DD>CTL D</DD>
+<DD>COMANDO PARA DEIXAR DE SER ROOT </DD>
+  <DT>SUDO PASSWD ROOT</DT>
+  <DD>COMANDO PARA ALTERAR A SENHA DO ROOT</DD>
+  <DT>/BIN/SU</DT>
+  <DD>COMANDO IDEAL PARA ACESSAR SUPER USUARIO </DD>
+<DD>SU – WWW-DATA –S /BIN/BASH</DD>
+  <DT>COMANDO PARA ENTRAR NO USUARIO WWW-DATA </DT>
+  <DD>SYNC</DD>
+<DD>COMANDO PERMITE GRAVAR DADOS DA MEMÓRIA NO SISTEMA</DD>
+  <DT>UNAME –A</DT>
+  <DD>COMANDO PARA EXIBIR TODOS OS PARÂMETROS ESPECIFICADO NO UNAME </DD>
+  <DT>UNAME –S</DT>
+  <DD>COMANDO PARA EXIBIR O KENEL</DD>
+  <DT>UNAME –N</DT>
+  <DD>VAI EXIBIR O NOME DA MÁQUINA NA REDE</DD>
+<DD>UNAME –R</DD>
+  <DT>VAI EXIBIR QUAL VERSÃO ESTÁ RODANDO NA MAQUINA </DT>
+  <DD>UNAME –V</DD>
+  <DT>COMANDO PARA EXIBIR A DATA QUE O KENEL FOI COMPILADO</DT>
+  <DD>UNAME –N</DD>
+  <DT>MOSTRA A ARQUITETURA </DT>
+  <DD>REBOOT</DD>
+<DD>COMANDO USADO PARA REINICIAR A MÁQUINA SOMENTE NO USUÁRIO ROOT </DD>
+  <DT>REBOOT –F</DT>
+  <DD>FORÇA O REINICIO DA MAQUINA A FORÇA (SEMPRE FAZER O SYNC SEMRPE QUE POSSIVEL ANTES) </DD>
+  <DT>ECHO B >/PROC/SYSRQ-TRIGGER</DT>
+  <DD>COMANDO PARA REINICIAR A MÁQUINA NO TAPA USADO PARA MODO DE EMERGÊNCIA</DD>
+  <DT>HALT</DT>
+  <DD>COMANDO PARA DESLIGAR A MAQUINA</DD>
+<DD>SHUTDOWN –H NOW</DD>
+  <DT>COMANDO PARA PARA DESLIGAR A MÁQUINA TBM </DT>
+  <DD>ECHO 0 >/ROC/SYSRQ-TRIGGER</DD>
+  <DT>COMANDO PARA DESLIGAR A MÁQUINA FORÇADO PARA EMERGÊNCIA  </DT>
+  <DD>SHUTDOWN –H 09:40</DD>
+  <DT>EXEMPLO DE COMANDO PARA DESLIGAR A MÁQUINA COM HORÁRIO AGENDADO  SHUTDOWN –C --------------------COMANDO PARA CANCELAR O AGENDAMENTO DE DESLIGAMENTO DA MAQUINA  </DT>
+  <DD>LSATTR</DD>
+<DD>COMANDO PARA VEFIRIA OS ATRIBUTOS DOS ARQUIVOS OU PASTA</DD>
+  <DT>CHATTR</DT>
+  <DD>COMANDO USADO PARA ALTERAR ATRIBUTO E DIRETORIOS </DD>
+  <DT>CHATTR +I (NOME DO ARQUIVO)</DT>
+  <DD>COMANDO ADICIONAR  UM ATRIBUTO AO ARQUIVO DEIXANDO IMUTÁVEL, SEM PERMISSÃO PARA ALTERAÇÃO.</DD>
+  <DT>CHATTR –I</DT>
+  <DD>COMANDO PARA REMOVER UM ATRIBUTO DE ALGUM ARQUIVO </DD>
+<DD>WICH(NOME DO BINARIO)</DD>
+  <DT>COMANDO USADO PARA MOSTRAR AONDE O BINÁRIO SE ENCONTRA</DT>
+  <DD>MCEDIT/CAMINHO/ARQUIVO</DD>
+  <DT>COMANDO PARA ABRIR ALGUM ARQUIVO COM O EDITOR</DT>
+  <DD>PS -A</DD>
+  <DT>COMANDO PARA MOSTRAR O QUE ESTÁ RODANDO EM TODOS TERMINAIS  </DT>
+  <DD>ALT F2</DD>
+<DD>COMANDO PARA ABRIR OUTRO TERMINAL </DD>
+  <DT>APT INSTALL SCREEN</DT>
+  <DD>COMANDO PARA INSTALAR MULTIPLOS TERMINAIS</DD>
+  <DT>SCREEN</DT>
+  <DD>COMANDO PARA DAR INICIO A UMA SCREEN </DD>
+  <DT>CTL + A +C</DT>
+  <DD>PARA ABRIR UMA NOVA SCREEN</DD>
+<DD>CTL + A + W</DD>
+  <DT>PARA VISUALIZAR QUANTAS SCREEN ESTÃO ABERTOS </DT>
+  <DD>CLT + A + 1, CLT + A + 2, CLT + A + 0</DD>
+  <DT>COMANDOS PARA NAVERGAR ENTRE AS ESCREEN</DT>
+  <DD>CLT + D</DD>
+  <DT>COMANDO PARA FECHAR UMA SCREEN</DT>
+  <DD>CLT –X</DD>
+<DD>COMANDO PARA ABRIR UMA SCREEN </DD>
  
-Curingas  
-ls a * ------------------------------usado para buscar todos os comando que começa com a letra A 
-ls b* -------------------------------usada para buscar todos os comandos que começa com a letra B 
-ls ?z* --------------------comando para buscar (? Uma letra aleatória) (Z letra) ( * um ou mais aleatório) 
-ls m[a-c]--comando usado para buscar comando que começa com M [que tenha letra a até a letra c] 
-lc m[^abc ]------------------------- comando usado para negar palavras que termina com abc  
-satt 
- 
-Pws 
-formato da impressão não compatível com a impressora 
-
-Comandos diversos  
-
-Df –h     ----------comando mostra o espaço livre em cada partição  
-df –TH –t  (come do formato)--------Comando para buscar um modelo de arquivo especifico  
-
-Date--------------comando para mostrar a data do sistema 
-ln ----------------- comando para criar um link     
-
-Find –name  --------------comando para pesquisar algo pelo nome  
-
-Find \etc -mtime –1 --------comando para pesquisar arquivos alterados 1 dia atrás 
-
-Find . -type d .name  ----------- comando para pesquisar apenas pastas 
-
-Find . -type f .name------------- comando para pesquisar apenas arquivos 
-
-Find  \etc -amin -10 ------------ comando para listar todos arquivos editados nos ultimos 10 minutos 
-
-Find  \tmp -cmin –10------------comando para listar todos arquivos e pastas criados nos ultimos 10 minutos 
-
-Find  \tmp -type f -cmin –10---comando para listar somente arquivos criado nos ultimos 10 minutos 
-
--cmin (último minuto) | -ctime (Último dia) |  
-
-Less --------------- comando para pesquisar e abrir um arquivo 
-
-Less / (nome da palavra que quer pesquisar) 
- 
-
-Sort ------------comando para listar um arquivo de forma de números para palavras de A –Z 
-
-Sort –n     --comando para listar arquivos de A – Z e depois os números de ordem crescente 
-
-  
-Uptime---------------- comando usado para mostrar o tempo ativo da máquina desde ultimo boot 
-  
-dmesg -----------------comando para acessar as últimas msg do kenel  
-
-Echo---------------------comando para exibir mensagem na tela  
-
-Su -   --------------------------Super use (usuário administrador)touc 
-Su - ----------------------------comando mais seguro para acessar super usuario 
-
-CTL D -----------------------------comando para deixar de ser root 
-
-sudo passwd root------------comando para alterar a senha do root 
-/bin/su ------------------------Comando ideal para acessar super usuario 
-Su – www-data –s /bin/bash -----------------------------comando para entrar no usuario www-data 
- 
-sync-------------------comando permite gravar dados da memória no sistema  
-
-Uname –a     --------------------------comando para exibir todos os parâmetros especificado no uname 
-uname –s ----------comando para exibir o kenel  
-uname –n-----------vai exibir o nome da máquina na rede 
-uname –r -----------vai exibir qual versão está rodando na maquina 
-uname –v -----------comando para exibir a data que o kenel foi compilado  
-uname –n------------ mostra a arquitetura  
-
- 
-
-Reboot ---------------comando usado para reiniciar a máquina somente no usuário root 
-
-Reboot –f -----------força o reinicio da maquina a força (sempre fazer o sync semrpe que possivel antes) 
-
-Echo b >/proc/sysrq-trigger -----------comando para reiniciar a máquina no tapa usado para modo de emergência  
-
-Halt ----------comando para desligar a maquina 
-shutdown –h now ----------comando para para desligar a máquina tbm 
-echo 0 >/roc/sysrq-trigger------------comando para desligar a máquina forçado para emergência  
-
-Shutdown –h 09:40 ---------------Exemplo de comando para desligar a máquina com horário agendado  Shutdown –c --------------------comando para cancelar o agendamento de desligamento da maquina  
-
- 
- 
-lsattr-----------------------comando para vefiria os atributos dos arquivos ou pasta  
-
- Chattr ---------------------comando usado para alterar atributo e diretorios  
-Chattr +i (nome do arquivo) ------------------Comando adicionar  um atributo ao arquivo deixando imutável, sem permissão para alteração.  
-chattr –i --------------------C 
-
-omando para remover um atributo de algum arquivo  
-
-Cmp ------------------ Compara dois arquivos de qualquer tipo (binário ou texto). 
- 
- 
-
-Wich(nome do binario) -------------------comando usado para mostrar aonde o binário se encontra  
-
- 
-
-Mcedit/caminho/arquivo------------------Comando para abrir algum arquivo com o editor 
-apt-get install mc ---------------------------Comando para instalar o mcedit caso não tenha 
-
-ps -a    ------------------------------------------Comando para mostrar o que está rodando em todos terminais  
-
- 
-
- 
-
-Alt F2 ----------------------------comando para abrir outro terminal 
-apt install screen--------------Comando para instalar multiplos terminais   
-screen---------------------------------------comando para dar inicio a uma screen 
-CTL + A +C ----------------------------------para abrir uma nova screen 
-CTL + A + W -----------------------------para visualizar quantas screen estão abertos 
-CLT + A + 1, CLT + A + 2, CLT + A + 0 ------------comandos para navergar entre as escreen  
-CLT + D -------------------------------------------------comando para fechar uma screen 
-CLT –X -------------------------------------------------comando para abrir uma screen 
-
- 
-Instalação e Configuração da Interface Gráfica: 
-
-Bem, nosso primeiro passo será atualizar a lista de repositórios: 
-# apt-get update 
-
- 
- 
-O primeiro componente que iremos instalar é o  X Window System: 
-# apt-get install x-window-system 
-
- 
-
-Agora que temos o X Window System instalado, podemos instalar Gerenciadores de Janelas e Ambientes de Desktop. Há vários disponíveis, como o gnome, icewm, xfce4, kde, fluxbox, etc.; nesta demonstração, iremos instalar o GNOME: 
-# apt-get install gnome 
-
-cat /etc/os-release ---------------comando para verificar a versão do linux 
-
-Após a instalação finalizar, vamos testar a interface gráfica iniciando-a a partir do console com o comando startx:: 
-
-# startx 
-
- 
+</DL>
 
  
